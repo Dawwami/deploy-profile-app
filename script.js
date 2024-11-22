@@ -8,10 +8,10 @@ img2 = document.getElementById("pdf-preview2");
 img3 = document.getElementById("pdf-preview3");
 img4 = document.getElementById("pdf-preview4");
 
-img.onclick = function() { fullScreen("src/preview1.jpg"); };
-img2.onclick = function() { fullScreen("src/preview2.jpg"); };
-img3.onclick = function() { fullScreen("src/preview3.jpg"); };
-img4.onclick = function() { fullScreen("src/preview4.jpg"); };
+img.onclick = function() { fullScreen("https://storage.googleapis.com/gambar_deploy_profile/preview1.jpg"); };
+img2.onclick = function() { fullScreen("https://storage.googleapis.com/gambar_deploy_profile/preview2.jpg"); };
+img3.onclick = function() { fullScreen("https://storage.googleapis.com/gambar_deploy_profile/preview3.jpg"); };
+img4.onclick = function() { fullScreen("https://storage.googleapis.com/gambar_deploy_profile/preview4.jpg"); };
 
 function fullScreen(src){
     modal.style.display = "block";
