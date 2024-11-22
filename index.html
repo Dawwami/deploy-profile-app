@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <div> 
+        <h1>Muhammad Raihan Dawwami</h1>
+        <p>My Portfolio</p>
+        </div>
+    </header>
+
+    <main>
+    <div>
+        <article>
+            <h2>About Me</h2>
+            <p align = "justify">Hello! My name is Muhammad Raihan Dawwami, I am a 5th semester student at Jakarta State University with a deep 
+                interest in Information Technology. Since the beginning of college, I have developed skills in programming, 
+                web development, and database management. In this portfolio, you will find various projects that I have worked on, as well as 
+                the experiences and skills that I have gained during my academic journey. Thank you for visiting my portfolio. Let's explore together! </p>
+            <p>I'm always excited to work on new projects and collaborate with other professionals. If you have a project in mind or just want to say hi, feel free to contact me!</p>
+            <button id="BtnProject">My Projects</button>
+            
+        </article>
+        
+        <article>
+            <h2>My Certificates</h2>
+            
+        <div class="container">
+                
+                <!--Sertif 1-->
+                <div class="image-gallery">
+                <img id="pdf-preview" src="src/preview1.jpg" alt="Sertif1" style="width: 250px; cursor: pointer;">
+                </div>
+            
+                <!--Sertif 2-->
+                <div class="image-gallery">
+                <img id="pdf-preview2" src="src/preview2.jpg" alt="Sertif2" style="width: 250px; cursor: pointer;">
+                </div>
+                
+                <!--Sertif 3-->
+                <div class="image-gallery">
+                <img id="pdf-preview3" src="src/preview3.jpg" alt="Sertif3" style="width: 250px; cursor: pointer;">
+                </div>
+        
+                <!--Sertif 4-->
+                <div class="image-gallery">
+                <img id="pdf-preview4" src="src/preview4.jpg" alt="sertif4" style="width: 250px; cursor: pointer;">
+                </div>
+        
+                <!--Fullscreen-->
+                <div id="image-modal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="full-image">
+                </div>
+        </div>    
+        </article>
+
+    </div>
+
+        <aside>
+            <h2>Contact Info</h2>
+            <img src="src/pasfoto.png" alt="Pas Foto">
+            <p>Email: 222mraihand@gmail.com</p>
+            <p>Phone: +6288211297298</p>
+            <p>Location: Bogor,Indonesia</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; Muhammad Raihan Dawwami - Prototype Portofolio Page</p>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
